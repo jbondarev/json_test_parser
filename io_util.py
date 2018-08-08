@@ -17,9 +17,9 @@ def writef(file_name, data):
     except:
         print('There is mistake in method "writef"')
 
+
 def test_io():
     try:
         writef('output.txt', readf('input.txt'))
     except:
         print('Error in module "io_util"')
-
